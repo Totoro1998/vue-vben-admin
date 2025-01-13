@@ -7,7 +7,7 @@ import type {
 
 import type { RequestClientOptions } from './types';
 
-import { bindMethods, merge } from '@vben/utils';
+import { bindMethods, merge } from '@shaolin/utils';
 
 import axios from 'axios';
 

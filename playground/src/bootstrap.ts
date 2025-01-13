@@ -1,11 +1,11 @@
 import { createApp, watchEffect } from 'vue';
 
-import { registerAccessDirective } from '@vben/access';
-import { initTippy } from '@vben/common-ui';
-import { preferences } from '@vben/preferences';
-import { initStores } from '@vben/stores';
-import '@vben/styles';
-import '@vben/styles/antd';
+import { registerAccessDirective } from '@shaolin/access';
+import { initTippy } from '@shaolin/common-ui';
+import { preferences } from '@shaolin/preferences';
+import { initStores } from '@shaolin/stores';
+import '@shaolin/styles';
+import '@shaolin/styles/antd';
 
 import { VueQueryPlugin } from '@tanstack/vue-query';
 import { useTitle } from '@vueuse/core';

@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-import type { MenuRecordRaw } from '@vben/types';
+import type { MenuRecordRaw } from '@shaolin/types';
 
 import type { NormalMenuProps } from '@vben-core/menu-ui';
 
 import { onBeforeMount } from 'vue';
 import { useRoute } from 'vue-router';
 
-import { findMenuByPath } from '@vben/utils';
+import { findMenuByPath } from '@shaolin/utils';
 
 import { NormalMenu } from '@vben-core/menu-ui';
 

@@ -25,11 +25,11 @@ import {
   watch,
 } from 'vue';
 
-import { usePriorityValues } from '@vben/hooks';
-import { EmptyIcon } from '@vben/icons';
-import { $t } from '@vben/locales';
-import { usePreferences } from '@vben/preferences';
-import { cloneDeep, cn, mergeWithArrayOverride } from '@vben/utils';
+import { usePriorityValues } from '@shaolin/hooks';
+import { EmptyIcon } from '@shaolin/icons';
+import { $t } from '@shaolin/locales';
+import { usePreferences } from '@shaolin/preferences';
+import { cloneDeep, cn, mergeWithArrayOverride } from '@shaolin/utils';
 
 import { VbenHelpTooltip, VbenLoading } from '@vben-core/shadcn-ui';
 

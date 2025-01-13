@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Page } from '@vben/common-ui';
+import { Page } from '@shaolin/common-ui';
 
 import { Card } from 'ant-design-vue';
 

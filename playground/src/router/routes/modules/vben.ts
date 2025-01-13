@@ -7,8 +7,8 @@ import {
   VBEN_GITHUB_URL,
   VBEN_LOGO_URL,
   VBEN_NAIVE_PREVIEW_URL,
-} from '@vben/constants';
-import { SvgAntdvLogoIcon } from '@vben/icons';
+} from '@shaolin/constants';
+import { SvgAntdvLogoIcon } from '@shaolin/icons';
 
 import { BasicLayout, IFrameView } from '#/layouts';
 import { $t } from '#/locales';

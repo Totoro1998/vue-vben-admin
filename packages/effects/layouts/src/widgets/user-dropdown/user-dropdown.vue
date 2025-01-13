@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import type { Component } from 'vue';
 
-import type { AnyFunction } from '@vben/types';
+import type { AnyFunction } from '@shaolin/types';
 
 import { computed, useTemplateRef, watch } from 'vue';
 
-import { useHoverToggle } from '@vben/hooks';
-import { LockKeyhole, LogOut } from '@vben/icons';
-import { $t } from '@vben/locales';
-import { preferences, usePreferences } from '@vben/preferences';
-import { useLockStore } from '@vben/stores';
-import { isWindowsOs } from '@vben/utils';
+import { useHoverToggle } from '@shaolin/hooks';
+import { LockKeyhole, LogOut } from '@shaolin/icons';
+import { $t } from '@shaolin/locales';
+import { preferences, usePreferences } from '@shaolin/preferences';
+import { useLockStore } from '@shaolin/stores';
+import { isWindowsOs } from '@shaolin/utils';
 
 import { useVbenModal } from '@vben-core/popup-ui';
 import {

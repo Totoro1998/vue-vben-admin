@@ -4,8 +4,8 @@ import type { RouteLocationNormalized } from 'vue-router';
 import { computed, ref } from 'vue';
 import { useRoute } from 'vue-router';
 
-import { preferences } from '@vben/preferences';
-import { useTabbarStore } from '@vben/stores';
+import { preferences } from '@shaolin/preferences';
+import { useTabbarStore } from '@shaolin/stores';
 
 import { VbenSpinner } from '@vben-core/shadcn-ui';
 

@@ -3,9 +3,9 @@ import type { VNode } from 'vue';
 
 import { computed, h, ref, watch, watchEffect } from 'vue';
 
-import { usePagination } from '@vben/hooks';
-import { EmptyIcon, Grip, listIcons } from '@vben/icons';
-import { $t } from '@vben/locales';
+import { usePagination } from '@shaolin/hooks';
+import { EmptyIcon, Grip, listIcons } from '@shaolin/icons';
+import { $t } from '@shaolin/locales';
 
 import {
   Button,

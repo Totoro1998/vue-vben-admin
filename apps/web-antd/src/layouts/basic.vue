@@ -1,21 +1,21 @@
 <script lang="ts" setup>
-import type { NotificationItem } from '@vben/layouts';
+import type { NotificationItem } from '@shaolin/layouts';
 
 import { computed, ref, watch } from 'vue';
 
-import { AuthenticationLoginExpiredModal } from '@vben/common-ui';
-import { VBEN_DOC_URL, VBEN_GITHUB_URL } from '@vben/constants';
-import { useWatermark } from '@vben/hooks';
-import { BookOpenText, CircleHelp, MdiGithub } from '@vben/icons';
+import { AuthenticationLoginExpiredModal } from '@shaolin/common-ui';
+import { VBEN_DOC_URL, VBEN_GITHUB_URL } from '@shaolin/constants';
+import { useWatermark } from '@shaolin/hooks';
+import { BookOpenText, CircleHelp, MdiGithub } from '@shaolin/icons';
 import {
   BasicLayout,
   LockScreen,
   Notification,
   UserDropdown,
-} from '@vben/layouts';
-import { preferences } from '@vben/preferences';
-import { useAccessStore, useUserStore } from '@vben/stores';
-import { openWindow } from '@vben/utils';
+} from '@shaolin/layouts';
+import { preferences } from '@shaolin/preferences';
+import { useAccessStore, useUserStore } from '@shaolin/stores';
+import { openWindow } from '@shaolin/utils';
 
 import { $t } from '#/locales';
 import { useAuthStore } from '#/store';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { MenuRecordRaw } from '@vben/types';
+import type { MenuRecordRaw } from '@shaolin/types';
 
 import { nextTick, onMounted, onUnmounted, ref, watch } from 'vue';
 
@@ -9,9 +9,9 @@ import {
   CornerDownLeft,
   MdiKeyboardEsc,
   Search,
-} from '@vben/icons';
-import { $t } from '@vben/locales';
-import { isWindowsOs } from '@vben/utils';
+} from '@shaolin/icons';
+import { $t } from '@shaolin/locales';
+import { isWindowsOs } from '@shaolin/utils';
 
 import { useVbenModal } from '@vben-core/popup-ui';
 

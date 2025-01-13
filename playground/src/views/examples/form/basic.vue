@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { h, ref } from 'vue';
 
-import { Page } from '@vben/common-ui';
+import { Page } from '@shaolin/common-ui';
 
 import { useDebounceFn } from '@vueuse/core';
 import { Button, Card, message, Spin, TabPane, Tabs } from 'ant-design-vue';

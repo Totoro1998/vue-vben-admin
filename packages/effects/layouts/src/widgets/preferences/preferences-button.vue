@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Settings } from '@vben/icons';
+import { Settings } from '@shaolin/icons';
 
 import { VbenIconButton } from '@vben-core/shadcn-ui';
 

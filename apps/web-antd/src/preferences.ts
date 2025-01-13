@@ -1,4 +1,4 @@
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@shaolin/preferences';
 
 /**
  * @description 项目配置文件

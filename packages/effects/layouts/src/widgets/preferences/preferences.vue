@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 import { computed } from 'vue';
 
-import { Settings } from '@vben/icons';
-import { $t, loadLocaleMessages } from '@vben/locales';
-import { preferences, updatePreferences } from '@vben/preferences';
-import { capitalizeFirstLetter } from '@vben/utils';
+import { Settings } from '@shaolin/icons';
+import { $t, loadLocaleMessages } from '@shaolin/locales';
+import { preferences, updatePreferences } from '@shaolin/preferences';
+import { capitalizeFirstLetter } from '@shaolin/utils';
 
 import { useVbenDrawer } from '@vben-core/popup-ui';
 import { VbenButton } from '@vben-core/shadcn-ui';

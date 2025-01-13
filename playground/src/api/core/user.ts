@@ -1,4 +1,4 @@
-import type { UserInfo } from '@vben/types';
+import type { UserInfo } from '@shaolin/types';
 
 import { requestClient } from '#/api/request';
 

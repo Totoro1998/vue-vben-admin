@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { Page } from '@vben/common-ui';
+import { Page } from '@shaolin/common-ui';
 import {
   downloadFileFromBase64,
   downloadFileFromBlobPart,
   downloadFileFromImageUrl,
   downloadFileFromUrl,
-} from '@vben/utils';
+} from '@shaolin/utils';
 
 import { Button, Card } from 'ant-design-vue';
 

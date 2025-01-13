@@ -4,7 +4,7 @@ import type { Ref } from 'vue';
 
 import { computed, onUnmounted, ref, watch } from 'vue';
 
-import { isFunction } from '@vben/utils';
+import { isFunction } from '@shaolin/utils';
 
 import { useMouseInElement } from '@vueuse/core';
 

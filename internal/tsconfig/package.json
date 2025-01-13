@@ -1,5 +1,5 @@
 {
-  "name": "@vben/tsconfig",
+  "name": "@shaolin/tsconfig",
   "version": "5.5.2",
   "private": true,
   "homepage": "https://github.com/vbenjs/vue-vben-admin",
@@ -19,7 +19,7 @@
     "web.json"
   ],
   "dependencies": {
-    "@vben/types": "workspace:*",
+    "@shaolin/types": "workspace:*",
     "vite": "catalog:"
   }
 }

@@ -2,8 +2,8 @@
 import { reactive } from 'vue';
 import { useRoute } from 'vue-router';
 
-import { Page } from '@vben/common-ui';
-import { useAccessStore } from '@vben/stores';
+import { Page } from '@shaolin/common-ui';
+import { useAccessStore } from '@shaolin/stores';
 
 import { MenuBadge } from '@vben-core/menu-ui';
 

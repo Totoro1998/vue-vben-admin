@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-import type { BreadcrumbStyleType } from '@vben/types';
+import type { BreadcrumbStyleType } from '@shaolin/types';
 
 import type { IBreadcrumb } from '@vben-core/shadcn-ui';
 
 import { computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
-import { $t } from '@vben/locales';
+import { $t } from '@shaolin/locales';
 
 import { VbenBreadcrumbView } from '@vben-core/shadcn-ui';
 

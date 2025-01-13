@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { MenuRecordRaw } from '@vben/types';
+import type { MenuRecordRaw } from '@shaolin/types';
 
 import type { MenuProps } from '@vben-core/menu-ui';
 

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Page, useVbenModal } from '@vben/common-ui';
+import { Page, useVbenModal } from '@shaolin/common-ui';
 
 import { Button, Card, Flex } from 'ant-design-vue';
 

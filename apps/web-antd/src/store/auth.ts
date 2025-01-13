@@ -1,10 +1,10 @@
-import type { Recordable, UserInfo } from '@vben/types';
+import type { Recordable, UserInfo } from '@shaolin/types';
 
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
-import { DEFAULT_HOME_PATH, LOGIN_PATH } from '@vben/constants';
-import { resetAllStores, useAccessStore, useUserStore } from '@vben/stores';
+import { DEFAULT_HOME_PATH, LOGIN_PATH } from '@shaolin/constants';
+import { resetAllStores, useAccessStore, useUserStore } from '@shaolin/stores';
 
 import { notification } from 'ant-design-vue';
 import { defineStore } from 'pinia';

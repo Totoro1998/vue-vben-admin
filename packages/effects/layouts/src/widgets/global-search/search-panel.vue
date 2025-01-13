@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { MenuRecordRaw } from '@vben/types';
+import type { MenuRecordRaw } from '@shaolin/types';
 
 import { nextTick, onMounted, ref, shallowRef, watch } from 'vue';
 import { useRouter } from 'vue-router';
 
-import { SearchX, X } from '@vben/icons';
-import { $t } from '@vben/locales';
-import { mapTree, traverseTreeValues, uniqueByField } from '@vben/utils';
+import { SearchX, X } from '@shaolin/icons';
+import { $t } from '@shaolin/locales';
+import { mapTree, traverseTreeValues, uniqueByField } from '@shaolin/utils';
 
 import { VbenIcon, VbenScrollbar } from '@vben-core/shadcn-ui';
 import { isHttpUrl } from '@vben-core/shared/utils';

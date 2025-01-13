@@ -1,9 +1,9 @@
 import type { Router } from 'vue-router';
 
-import { DEFAULT_HOME_PATH, LOGIN_PATH } from '@vben/constants';
-import { preferences } from '@vben/preferences';
-import { useAccessStore, useUserStore } from '@vben/stores';
-import { startProgress, stopProgress } from '@vben/utils';
+import { DEFAULT_HOME_PATH, LOGIN_PATH } from '@shaolin/constants';
+import { preferences } from '@shaolin/preferences';
+import { useAccessStore, useUserStore } from '@shaolin/stores';
+import { startProgress, stopProgress } from '@shaolin/utils';
 
 import { accessRoutes, coreRouteNames } from '#/router/routes';
 import { useAuthStore } from '#/store';

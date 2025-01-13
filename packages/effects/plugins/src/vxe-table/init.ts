@@ -2,7 +2,7 @@ import type { SetupVxeTable } from './types';
 
 import { defineComponent, watch } from 'vue';
 
-import { usePreferences } from '@vben/preferences';
+import { usePreferences } from '@shaolin/preferences';
 
 import { useVbenForm } from '@vben-core/form-ui';
 

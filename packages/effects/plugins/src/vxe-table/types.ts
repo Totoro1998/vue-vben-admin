@@ -7,7 +7,7 @@ import type {
 
 import type { Ref } from 'vue';
 
-import type { ClassType, DeepPartial } from '@vben/types';
+import type { ClassType, DeepPartial } from '@shaolin/types';
 
 import type { VbenFormProps } from '@vben-core/form-ui';
 

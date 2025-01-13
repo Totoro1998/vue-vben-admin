@@ -1,3 +1,3 @@
-# @vben/vsh
+# @shaolin/vsh
 
 shell 脚本工具集合

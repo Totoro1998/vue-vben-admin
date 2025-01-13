@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 
-import { Page, SliderRotateCaptcha } from '@vben/common-ui';
-import { preferences } from '@vben/preferences';
-import { useUserStore } from '@vben/stores';
+import { Page, SliderRotateCaptcha } from '@shaolin/common-ui';
+import { preferences } from '@shaolin/preferences';
+import { useUserStore } from '@shaolin/stores';
 
 import { Card, message } from 'ant-design-vue';
 

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from 'vue';
 
-import { LockKeyhole } from '@vben/icons';
-import { $t, useI18n } from '@vben/locales';
-import { storeToRefs, useLockStore } from '@vben/stores';
+import { LockKeyhole } from '@shaolin/icons';
+import { $t, useI18n } from '@shaolin/locales';
+import { storeToRefs, useLockStore } from '@shaolin/stores';
 
 import { useScrollLock } from '@vben-core/composables';
 import { useVbenForm, z } from '@vben-core/form-ui';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SupportedLanguagesType } from '@vben/locales';
+import type { SupportedLanguagesType } from '@shaolin/locales';
 import type {
   BreadcrumbStyleType,
   BuiltinThemeType,
@@ -10,20 +10,20 @@ import type {
   NavigationStyleType,
   PreferencesButtonPositionType,
   ThemeModeType,
-} from '@vben/types';
+} from '@shaolin/types';
 
 import type { SegmentedItem } from '@vben-core/shadcn-ui';
 
 import { computed, ref } from 'vue';
 
-import { Copy, RotateCw } from '@vben/icons';
-import { $t, loadLocaleMessages } from '@vben/locales';
+import { Copy, RotateCw } from '@shaolin/icons';
+import { $t, loadLocaleMessages } from '@shaolin/locales';
 import {
   clearPreferencesCache,
   preferences,
   resetPreferences,
   usePreferences,
-} from '@vben/preferences';
+} from '@shaolin/preferences';
 
 import { useVbenDrawer } from '@vben-core/popup-ui';
 import {

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { BuiltinThemeType } from '@vben/types';
+import type { BuiltinThemeType } from '@shaolin/types';
 
-import { Palette } from '@vben/icons';
+import { Palette } from '@shaolin/icons';
 import {
   COLOR_PRESETS,
   preferences,
   updatePreferences,
-} from '@vben/preferences';
+} from '@shaolin/preferences';
 
 import { VbenIconButton } from '@vben-core/shadcn-ui';
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
 
-import { $t } from '@vben/locales';
+import { $t } from '@shaolin/locales';
 
 import { useVbenModal } from '@vben-core/popup-ui';
 

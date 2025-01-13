@@ -7,7 +7,7 @@ import type {
 
 import { reactive, unref, useTemplateRef, watch, watchEffect } from 'vue';
 
-import { $t } from '@vben/locales';
+import { $t } from '@shaolin/locales';
 
 import { cn } from '@vben-core/shared/utils';
 

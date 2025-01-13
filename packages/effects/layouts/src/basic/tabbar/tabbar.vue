@@ -2,9 +2,9 @@
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 
-import { useContentMaximize, useTabs } from '@vben/hooks';
-import { preferences } from '@vben/preferences';
-import { useTabbarStore } from '@vben/stores';
+import { useContentMaximize, useTabs } from '@shaolin/hooks';
+import { preferences } from '@shaolin/preferences';
+import { useTabbarStore } from '@shaolin/stores';
 
 import { TabsToolMore, TabsToolScreen, TabsView } from '@vben-core/tabs-ui';
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TabOption } from '@vben/types';
+import type { TabOption } from '@shaolin/types';
 
 import { computed } from 'vue';
 

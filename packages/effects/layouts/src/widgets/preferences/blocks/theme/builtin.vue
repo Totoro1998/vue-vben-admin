@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { BuiltinThemePreset } from '@vben/preferences';
-import type { BuiltinThemeType } from '@vben/types';
+import type { BuiltinThemePreset } from '@shaolin/preferences';
+import type { BuiltinThemeType } from '@shaolin/types';
 
 import { computed, ref, watch } from 'vue';
 
-import { UserRoundPen } from '@vben/icons';
-import { $t } from '@vben/locales';
-import { BUILT_IN_THEME_PRESETS } from '@vben/preferences';
-import { convertToHsl, TinyColor } from '@vben/utils';
+import { UserRoundPen } from '@shaolin/icons';
+import { $t } from '@shaolin/locales';
+import { BUILT_IN_THEME_PRESETS } from '@shaolin/preferences';
+import { convertToHsl, TinyColor } from '@shaolin/utils';
 
 defineOptions({
   name: 'PreferenceBuiltinTheme',

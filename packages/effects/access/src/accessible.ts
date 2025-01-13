@@ -2,7 +2,7 @@ import type {
   AccessModeType,
   GenerateMenuAndRoutesOptions,
   RouteRecordRaw,
-} from '@vben/types';
+} from '@shaolin/types';
 
 import {
   cloneDeep,
@@ -10,7 +10,7 @@ import {
   generateRoutesByBackend,
   generateRoutesByFrontend,
   mapTree,
-} from '@vben/utils';
+} from '@shaolin/utils';
 
 async function generateAccessible(
   mode: AccessModeType,
